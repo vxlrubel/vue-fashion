@@ -1,6 +1,5 @@
 <script setup>
   import { RouterLink, RouterView } from 'vue-router';
-  import Iconuser from './components/icons/IconUser.vue';
   import IconCart from './components/icons/IconCart.vue';
   import IconBar from './components/icons/IconBar.vue';
   import UserDropdown from './components/UserDropdown.vue';
