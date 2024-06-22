@@ -1,7 +1,7 @@
 <script setup>
   import { RouterLink, RouterView } from 'vue-router';
-  import IconCart from './components/icons/IconCart.vue';
   import IconBar from './components/icons/IconBar.vue';
+  import MinicartIcon from './components/MinicartIcon.vue';
   import UserDropdown from './components/UserDropdown.vue';
 </script>
 
@@ -27,16 +27,9 @@
                 <span class="icon"><IconBar /></span>
               </button>
             </div>
-            <div class="dropdown d-inline-flex">
-              <button type="button" class="btn border-0 position-relative" data-bs-toggle="offcanvas" data-bs-target="#minicart" aria-controls="offcanvasRight">
-                  <span class="icon">
-                    <IconCart />
-                  </span>
-                  <span class="small position-absolute d-inline-flex p-2 align-items-center translate-middle bg-secondary text-light rounded-circle" style="font-size:10px;height:20px;width:20px;left:35px">9+</span>
-              </button>
-              
-            </div>
-            
+
+
+            <MinicartIcon/>
             <UserDropdown/>
 
           </div>
