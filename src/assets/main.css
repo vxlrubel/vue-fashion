@@ -1,4 +1,33 @@
+:root{
+  --vf-color-primary: #a29bfe;
+  --vf-color-primary-deep: #6c5ce7;
+}
 .icon{
   display: inline-flex;
   width: 16px;
+}
+
+.btn-primary {
+	--bs-btn-bg: var(--vf-color-primary-deep);
+	--bs-btn-border-color: var(--vf-color-primary-deep);
+	--bs-btn-hover-bg: var(--vf-color-primary);
+	--bs-btn-hover-border-color: var(--vf-color-primary);
+	--bs-btn-active-bg: var(--vf-color-primary);
+	--bs-btn-active-border-color: var(--vf-color-primary);
+	--bs-btn-disabled-bg: var(--vf-color-primary-deep);
+	--bs-btn-disabled-border-color: var(--vf-color-primary-deep);
+}
+.btn-outline-primary {
+	--bs-btn-color: var(--vf-color-primary-deep);
+	--bs-btn-border-color: var(--vf-color-primary-deep);
+	--bs-btn-hover-bg: var(--vf-color-primary-deep);
+	--bs-btn-hover-border-color: var(--vf-color-primary-deep);
+	--bs-btn-active-bg: var(--vf-color-primary-deep);
+	--bs-btn-active-border-color: var(--vf-color-primary-deep);
+	--bs-btn-disabled-color: var(--vf-color-primary-deep);
+	--bs-btn-disabled-border-color: var(--vf-color-primary-deep);
+}
+.dropdown-item:focus, .dropdown-item:hover {
+	color: white;
+	background-color: var(--vf-color-primary);
 }
