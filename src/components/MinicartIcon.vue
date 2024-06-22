@@ -9,7 +9,7 @@
             <span class="icon">
                 <IconCart />
             </span>
-            <span class="small position-absolute d-inline-flex p-2 align-items-center translate-middle bg-secondary text-light rounded-circle" style="font-size:10px;height:20px;width:20px;left:35px">9+</span>
+            <span class="small position-absolute d-inline-flex p-2 align-items-center translate-middle bg-primary text-light rounded-circle" style="font-size:10px;height:20px;width:20px;left:35px">9+</span>
         </button>
     </div>
 </template>
