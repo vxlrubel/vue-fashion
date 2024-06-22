@@ -9,10 +9,10 @@
       </div>
       <div class="offcanvas-body px-4">
         <div class="d-flex">
-            <div class="me-2" style="width:50px;height:60px;">
+            <div class="me-2" style="width:55px; height:78px;">
               <img src="https://img.freepik.com/free-photo/woman-dress_1303-3764.jpg?t=st=1719081743~exp=1719085343~hmac=49052437edf9fa5911ba79745e443c5396008c802ec4bcab3b4e5a0f937930a6&w=360" class="w-100 h-100 object-fit-cover" alt="product image">
             </div>
-            <div style="width: calc(100% - calc(50px + .5rem));">
+            <div style="width: calc(100% - calc(55px + .5rem));">
               <div class="d-flex align-items-center">
                 <div style="width: calc(100% - calc(20px + .5rem));">
                   <a href="javascript:void(0)" class="d-block text-decoration-none text-body text-truncate">Ethereal Elegance KurtiEthereal Elegance KurtiEthereal Elegance Kurti</a>
