@@ -1,6 +1,7 @@
 :root{
   --vf-color-primary: #a29bfe;
   --vf-color-primary-deep: #6c5ce7;
+  --vf-color-red: #eb3b5a;
 }
 .icon{
   display: inline-flex;
