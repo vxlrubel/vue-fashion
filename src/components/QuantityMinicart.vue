@@ -4,7 +4,7 @@
         <button class="btn border-0 rounded-0 p-2" :disabled="quantity <= 1" @click.prevent="decrement">
             <IconMinus/>
         </button>
-        <input type="number" :value="quantity" @input="updateQuantity" step="1" max="50" min="1">
+        <input class="fs-5" type="number" :value="quantity" @input="updateQuantity" step="1" max="50" min="1">
         <button class="btn border-0 rounded-0 p-2" :disabled="quantity >= 50" @click.prevent="increment">
             <IconPlus/>
         </button>
@@ -47,6 +47,7 @@
 
 <style scoped>
     .quantity{
+        transform: scale(0.7);
         border: 1px solid #dee2e6;
     }
     .quantity .btn{
