@@ -239,7 +239,23 @@
               </div>
           </div>
       </div>
-      <div class="offcanvas-footer px-4 py-3">
+      <div class="offcanvas-footer bg-light px-4 py-3">
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <td class="text-end p-1">Shipping:</td>
+              <td class="text-end p-1" style="width: 80px;">$12.00</td>
+            </tr>
+            <tr>
+              <td class="text-end p-1">Tax:</td>
+              <td class="text-end p-1" style="width: 80px;">$5.00</td>
+            </tr>
+            <tr>
+              <td class="text-end p-1">Total:</td>
+              <td class="text-end p-1" style="width: 80px;">$25.00</td>
+            </tr>
+          </tbody>
+        </table>
         <div class="row">
           <div class="col-6">
             <a href="javascript:void(0)" class="btn btn-sm w-100 btn-primary rounded-0">View Cart</a>
