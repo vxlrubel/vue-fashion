@@ -4,6 +4,7 @@
   import MinicartIcon from './components/MinicartIcon.vue';
   import UserDropdown from './components/UserDropdown.vue';
   import Minicart from './components/Minicart.vue';
+  import MobileMenu from './components/MobileMenu.vue';
 </script>
 
 <template>
@@ -38,13 +39,8 @@
         </div>
       </div>
     </div>
-
-    <!-- collapse menu -->
-    <div class="collapse" id="collapseExample">
-      <div class="card card-body">
-        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-      </div>
-    </div>
+    
+    <MobileMenu/>
     
     <Minicart/>
 
