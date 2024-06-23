@@ -38,3 +38,6 @@ body{
 .bg-primary {
 	background-color: var(--vf-color-primary) !important;
 }
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+	--bs-offcanvas-width: 350px;
+}
