@@ -3,6 +3,9 @@
   --vf-color-primary-deep: #6c5ce7;
   --vf-color-red: #eb3b5a;
 }
+body{
+	font-size: 14px;
+}
 .icon{
   display: inline-flex;
   width: 16px;
